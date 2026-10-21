@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1350" role="img" aria-label="Scrum: inspect and adapt within a Sprint">
+  <title>Scrum: inspect and adapt within a Sprint</title>
+  <rect x="0" y="0" width="960" height="1350" fill="white" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#142E40" />
+    </marker>
+  </defs>
+  <text x="48" y="64" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">Scrum: inspect and adapt within a Sprint</text>
+  <rect x="150" y="106" width="744" height="130" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="522.0" y="157.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Product Backlog · Product Goal</text>
+  <text x="522.0" y="205.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Product Owner accountable for ordering</text>
+  <rect x="120" y="280" width="800" height="918" rx="10" fill="white" stroke="#0072B2" stroke-width="2" />
+  <line x1="522" y1="236" x2="522" y2="276" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <text x="150" y="330" font-size="34" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">SPRINT · one month or less</text>
+  <rect x="150" y="362" width="744" height="148" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="522.0" y="422.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Sprint Planning</text>
+  <text x="522.0" y="470.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Sprint Goal + selected work + plan</text>
+  <line x1="522" y1="510" x2="522" y2="556" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <rect x="150" y="566" width="744" height="148" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="522.0" y="626.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Developers build usable Increments</text>
+  <text x="522.0" y="674.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Daily Scrum: inspect goal; adapt plan</text>
+  <line x1="522" y1="714" x2="522" y2="760" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <rect x="150" y="770" width="744" height="148" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="522.0" y="830.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Sprint Review</text>
+  <text x="522.0" y="878.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Inspect outcome with stakeholders</text>
+  <line x1="522" y1="918" x2="522" y2="964" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <rect x="150" y="974" width="744" height="148" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="522.0" y="1034.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Sprint Retrospective</text>
+  <text x="522.0" y="1082.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Improve quality and effectiveness</text>
+  <line x1="66" y1="1050" x2="66" y2="174" stroke="#142E40" stroke-width="2" stroke-dasharray="10 7" marker-end="url(#arrow)" />
+  <line x1="150" y1="1050" x2="66" y2="1050" stroke="#142E40" stroke-width="2" stroke-dasharray="10 7" marker-end="url(#arrow)" />
+  <line x1="66" y1="174" x2="140" y2="174" stroke="#142E40" stroke-width="2" stroke-dasharray="10 7" marker-end="url(#arrow)" />
+  <text x="48" y="1250" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">Increment meets the Definition of Done.</text>
+  <text x="48" y="1300" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">Release can happen before the Sprint Review.</text>
+</svg>

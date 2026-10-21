@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 870" role="img" aria-label="Stakeholder power / interest grid">
+  <title>Stakeholder power / interest grid</title>
+  <rect x="0" y="0" width="960" height="870" fill="white" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#142E40" />
+    </marker>
+  </defs>
+  <text x="48" y="64" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">Stakeholder power / interest grid</text>
+  <rect x="180" y="134" width="340" height="250" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="350.0" y="197.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">A</text>
+  <text x="350.0" y="245.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">High power</text>
+  <text x="350.0" y="293.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Low interest</text>
+  <text x="350.0" y="341.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Keep satisfied</text>
+  <rect x="540" y="134" width="370" height="250" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="725.0" y="197.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">B</text>
+  <text x="725.0" y="245.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">High power</text>
+  <text x="725.0" y="293.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">High interest</text>
+  <text x="725.0" y="341.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Manage closely</text>
+  <rect x="180" y="404" width="340" height="250" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="350.0" y="467.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">D</text>
+  <text x="350.0" y="515.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Low power</text>
+  <text x="350.0" y="563.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Low interest</text>
+  <text x="350.0" y="611.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Monitor</text>
+  <rect x="540" y="404" width="370" height="250" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="725.0" y="467.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">C</text>
+  <text x="725.0" y="515.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Low power</text>
+  <text x="725.0" y="563.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">High interest</text>
+  <text x="725.0" y="611.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Keep informed</text>
+  <line x1="132" y1="686" x2="132" y2="120" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <text x="38" y="124" font-size="30" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">High</text>
+  <text x="38" y="688" font-size="30" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">Low</text>
+  <text x="38" y="760" font-size="30" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">POWER</text>
+  <line x1="180" y1="706" x2="900" y2="706" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <text x="180" y="750" font-size="30" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">Low</text>
+  <text x="840" y="750" font-size="30" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">High</text>
+  <text x="400" y="812" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">INTEREST</text>
+</svg>

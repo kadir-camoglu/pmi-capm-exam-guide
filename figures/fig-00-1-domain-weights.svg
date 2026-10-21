@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 840" role="img" aria-label="CAPM domain weights">
+  <title>CAPM domain weights</title>
+  <rect x="0" y="0" width="960" height="840" fill="white" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#142E40" />
+    </marker>
+  </defs>
+  <text x="48" y="64" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">CAPM domain weights</text>
+  <text x="48" y="120" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">D1 · Fundamentals and core concepts</text>
+  <rect x="48" y="142" width="720" height="54" rx="10" fill="#F1F5F8" />
+  <rect x="48" y="142" width="648.0" height="54" rx="10" fill="#0072B2" />
+  <text x="800" y="182" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">36%</text>
+  <text x="48" y="286" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">D2 · Predictive, plan-based</text>
+  <rect x="48" y="308" width="720" height="54" rx="10" fill="#F1F5F8" />
+  <rect x="48" y="308" width="306.0" height="54" rx="10" fill="#0072B2" />
+  <text x="800" y="348" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">17%</text>
+  <text x="48" y="452" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">D3 · Agile frameworks / methodologies</text>
+  <rect x="48" y="474" width="720" height="54" rx="10" fill="#F1F5F8" />
+  <rect x="48" y="474" width="360.0" height="54" rx="10" fill="#0072B2" />
+  <text x="800" y="514" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">20%</text>
+  <text x="48" y="618" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">D4 · Business analysis</text>
+  <rect x="48" y="640" width="720" height="54" rx="10" fill="#F1F5F8" />
+  <rect x="48" y="640" width="486.0" height="54" rx="10" fill="#0072B2" />
+  <text x="800" y="680" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">27%</text>
+  <text x="48" y="800" font-size="30" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">ECO weights total 100%; bar scale ends at 40%.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" role="img" aria-label="Activity network · two required branches">
+  <title>Activity network · two required branches</title>
+  <rect x="0" y="0" width="960" height="650" fill="white" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#142E40" />
+    </marker>
+  </defs>
+  <text x="48" y="64" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">Activity network · two required branches</text>
+  <rect x="28" y="292" width="164" height="100" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="110.0" y="328.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">C</text>
+  <text x="110.0" y="376.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Start</text>
+  <rect x="768" y="292" width="164" height="100" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="850.0" y="328.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">D</text>
+  <text x="850.0" y="376.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Finish</text>
+  <text x="230" y="132" font-size="34" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">Area A</text>
+  <rect x="230" y="156" width="220" height="110" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="340.0" y="197.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Survey</text>
+  <text x="340.0" y="245.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">5 days</text>
+  <rect x="510" y="156" width="220" height="110" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="620.0" y="197.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Build</text>
+  <text x="620.0" y="245.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">6 days</text>
+  <line x1="450" y1="211" x2="500" y2="211" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <path d="M 192 342 L 208 342 L 208 211 L 220 211" fill="none" stroke="#142E40" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 730 211 L 748 211 L 748 342 L 758 342" fill="none" stroke="#142E40" stroke-width="2" marker-end="url(#arrow)" />
+  <text x="230" y="432" font-size="34" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">Area B</text>
+  <rect x="230" y="456" width="220" height="110" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="340.0" y="497.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Permit</text>
+  <text x="340.0" y="545.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">3 days</text>
+  <rect x="510" y="456" width="220" height="110" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="620.0" y="497.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Fit</text>
+  <text x="620.0" y="545.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">5 days</text>
+  <line x1="450" y1="511" x2="500" y2="511" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <path d="M 192 342 L 208 342 L 208 511 L 220 511" fill="none" stroke="#142E40" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 730 511 L 748 511 L 748 342 L 758 342" fill="none" stroke="#142E40" stroke-width="2" marker-end="url(#arrow)" />
+  <text x="48" y="620" font-size="30" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">Start and Finish: zero duration. No resource constraints.</text>
+</svg>

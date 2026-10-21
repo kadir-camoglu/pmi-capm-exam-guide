@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1030" role="img" aria-label="Earned value: cost and schedule">
+  <title>Earned value: cost and schedule</title>
+  <rect x="0" y="0" width="960" height="1030" fill="white" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#142E40" />
+    </marker>
+  </defs>
+  <text x="48" y="64" font-size="36" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="start" fill="#142E40">Earned value: cost and schedule</text>
+  <rect x="48" y="110" width="864" height="176" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="480.0" y="160.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">PV = $100,000 · planned work</text>
+  <text x="480.0" y="208.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">EV = $90,000 · completed work</text>
+  <text x="480.0" y="256.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">AC = $95,000 · actual cost</text>
+  <line x1="480" y1="286" x2="480" y2="330" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <rect x="48" y="340" width="864" height="240" rx="10" fill="#F1F5F8" stroke="#0072B2" stroke-width="2" />
+  <text x="480.0" y="398.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Schedule uses PV</text>
+  <text x="480.0" y="446.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">SV = EV − PV = −$10,000</text>
+  <text x="480.0" y="494.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">SPI = EV ÷ PV = 0.90</text>
+  <text x="480.0" y="542.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Behind the planned work</text>
+  <line x1="480" y1="580" x2="480" y2="624" stroke="#142E40" stroke-width="2" stroke-dasharray="none" marker-end="url(#arrow)" />
+  <rect x="48" y="634" width="864" height="240" rx="10" fill="#F1F5F8" stroke="#D55E00" stroke-width="2" />
+  <text x="480.0" y="692.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="600" text-anchor="middle" fill="#142E40">Cost uses AC</text>
+  <text x="480.0" y="740.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">CV = EV − AC = −$5,000</text>
+  <text x="480.0" y="788.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">CPI = EV ÷ AC ≈ 0.95</text>
+  <text x="480.0" y="836.0" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="middle" fill="#142E40">Over budget for completed work</text>
+  <text x="48" y="950" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">Negative variance / index below 1.0:</text>
+  <text x="48" y="996" font-size="32" font-family="system-ui, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start" fill="#142E40">behind schedule or over budget, respectively.</text>
+</svg>

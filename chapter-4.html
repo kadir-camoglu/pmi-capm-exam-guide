@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><meta name="description" content="A freely shared, independent study guide for PMI CAPM. Concepts, worked examples and practice questions with explanations."><title>Chapter 4 — Registers, Closure, and Transitions · CAPM® Exam Guide</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/site.css"><script src="assets/site.js" defer></script></head>
+<body><a class="skip" href="#reading">Skip to content</a>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">PM</span><span>CAPM® Exam Guide<small>Free study guide · Kadir Çamoğlu</small></span></a><div class="tools"><button type="button" id="theme" aria-label="Change colour theme">Theme</button><button type="button" id="menu" aria-controls="book-nav" aria-expanded="false">Contents</button></div></header>
+<div class="draft" role="note"><strong>Public draft · 2026-10.</strong> Independent review is pending. <a href="mailto:kadir.camoglu@gmail.com">Send feedback</a>.</div>
+<div class="layout"><nav class="sidebar" id="book-nav" aria-label="Book contents"><label for="nav-search">Find a chapter or reference</label><input id="nav-search" type="search" placeholder="Filter contents…" autocomplete="off"><p id="nav-empty" hidden>No matching sections.</p><section class="nav-group"><h2>Start here</h2><ul><li><a href="index.html">Guide overview</a></li><li><a href="copyright.html">Copyright and notices</a></li><li><a href="introduction.html">Introduction — About This Book</a></li><li><a href="how-to-use.html">How to Use This Book</a></li><li><a href="objective-map.html">Objective Map</a></li></ul></section><section class="nav-group"><h2>Chapters</h2><ul><li><a href="chapter-0.html">Chapter 0 — CAPM Exam Onboarding</a></li><li><a href="part-1.html">Part I — Project Management Fundamentals and Core Concepts</a></li><li><a href="chapter-1.html">Chapter 1 — Projects, Programs, and Portfolios</a></li><li><a href="chapter-2.html">Chapter 2 — Life Cycles, Uncertainty, and Professional Conduct</a></li><li><a href="chapter-3.html">Chapter 3 — The Project Management Plan and Its Components</a></li><li><a aria-current="page" href="chapter-4.html">Chapter 4 — Registers, Closure, and Transitions</a></li><li><a href="chapter-5.html">Chapter 5 — Project Roles and Leadership</a></li><li><a href="chapter-6.html">Chapter 6 — Strategy, Initiation, and Benefits Planning</a></li><li><a href="chapter-7.html">Chapter 7 — Meetings and Collaboration Techniques</a></li><li><a href="part-2.html">Part II — Predictive, Plan-Based Methodologies</a></li><li><a href="chapter-8.html">Chapter 8 — When and How Predictive Works</a></li><li><a href="chapter-9.html">Chapter 9 — Scope and Schedule in Predictive Projects</a></li><li><a href="chapter-10.html">Chapter 10 — Quality, Integration, and Predictive Artifacts</a></li><li><a href="part-3.html">Part III — Agile Frameworks / Methodologies</a></li><li><a href="chapter-11.html">Chapter 11 — Choosing Adaptive: Suitability and Organizational Enablers</a></li><li><a href="chapter-12.html">Chapter 12 — Planning Project Iterations</a></li><li><a href="chapter-13.html">Chapter 13 — Adaptive Artifacts and the Major Frameworks</a></li><li><a href="chapter-14.html">Chapter 14 — Measuring Success and Prioritizing Work</a></li><li><a href="part-4.html">Part IV — Business Analysis Frameworks</a></li><li><a href="chapter-15.html">Chapter 15 — BA Stakeholders and Communication</a></li><li><a href="chapter-16.html">Chapter 16 — Eliciting and Managing Requirements</a></li><li><a href="chapter-17.html">Chapter 17 — Product Roadmaps and Releases</a></li><li><a href="chapter-18.html">Chapter 18 — Methodology, Acceptance, and Delivery Readiness</a></li><li><a href="chapter-19.html">Chapter 19 — Practice Exam 1</a></li></ul></section><section class="nav-group"><h2>Reference & answers</h2><ul><li><a href="part1-answers.html">Part I — Practice Answers and Cumulative Retrieval</a></li><li><a href="part2-answers.html">Part II — Practice Answers and Cumulative Retrieval</a></li><li><a href="part3-answers.html">Part III — Practice Answers and Cumulative Retrieval</a></li><li><a href="part4-answers.html">Part IV — Practice Answers and Cumulative Retrieval</a></li><li><a href="practice-exam-answers.html">Practice Exam — Answer Key &amp; Rationale</a></li><li><a href="appendix-a-formulas.html">Appendix A — Formula &amp; Earned Value Quick Reference</a></li><li><a href="appendix-b-agile.html">Appendix B — Agile Quick Reference</a></li><li><a href="appendix-c-business-analysis.html">Appendix C — Business Analysis Quick Reference</a></li><li><a href="appendix-d-concept-pairs.html">Appendix D — Critical Concept Pairs and Near-Miss Distinctions</a></li><li><a href="glossary.html">Glossary</a></li><li><a href="final-revision-plan.html">Final Revision Plan</a></li><li><a href="official-resources.html">Official Resources</a></li></ul></section><div class="nav-extras"><a href="all.html">Complete guide on one page</a><a href="book.md">Read as Markdown</a><a href="https://kadir-camoglu.github.io/author/">Author</a></div></nav>
+<main id="reading" tabindex="-1"><div class="reading-label">Chapters</div><details class="on-page"><summary>On this page</summary><ul><li><a href="#sec-4-1">4.1 — Using a Risk Register</a></li><li><a href="#sec-4-2">4.2 — Using a Stakeholder Register</a></li><li><a href="#sec-4-3">4.3 — Project Closure and Transitions</a></li><li><a href="#ch4-chapter-4-summary">Chapter 4 — Summary</a></li><li><a href="#ch4-chapter-4-exam-essentials">Chapter 4 — Exam Essentials</a></li><li><a href="#ch4-chapter-4-practice-questions">Chapter 4 — Practice Questions</a></li><li><a href="#ch4-qc-answers">Chapter 4 — Quick-Check Answers</a></li></ul></details><article><h1 id="ch4">Chapter 4 — Registers, Closure, and Transitions</h1>
+<blockquote>
+<p><strong>This chapter covers ECO Task 1-2, enablers:</strong> use a risk register in a given situation (1.2.5) · use a stakeholder register in a given situation (1.2.6) · explain project closure and transitions (1.2.7).</p>
+</blockquote>
+<p>These three enablers are practical: two are about knowing <em>which register</em> fits a situation, and the third is about what &quot;done&quot; really means.</p>
+<h2 id="sec-4-1">4.1 — Using a Risk Register</h2>
+<p><strong>ECO:</strong> 1.2.5 — Use a risk register in a given situation.</p>
+<p><strong>Why it matters.</strong> The exam gives you a situation and asks which tool to use; the risk register is the answer whenever uncertain future events are involved.</p>
+<p><strong>Concept.</strong> A <strong>risk register</strong> is the living document that lists identified risks, their analysis (probability and impact), planned responses, and owners. You <em>use</em> it when you need to <strong>record a newly identified risk</strong>, <strong>look up the planned response</strong> to a risk that is now materializing, or <strong>review which risks threaten an objective</strong>. If a scenario describes an uncertain future event the team should track and respond to, the risk register is the tool.</p>
+<table>
+<thead>
+<tr>
+<th>You need to…</th>
+<th>Risk register action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Capture a new uncertain event</td>
+<td>Add a risk entry</td>
+</tr>
+<tr>
+<td>Respond to a triggered risk</td>
+<td>Execute its recorded response</td>
+</tr>
+<tr>
+<td>Review threats to an objective</td>
+<td>Scan relevant risks and statuses</td>
+</tr>
+</tbody></table>
+<p><strong>Worked example (CityPark).</strong> When the team spots that &quot;the payment vendor might miss its date,&quot; they add it to the <strong>risk register</strong> with a probability, impact, and a response (line up a backup vendor). When the risk later triggers, they return to the register and execute that planned response.</p>
+<blockquote>
+<p><strong>Practice prompts</strong></p>
+<ul>
+<li><em>BEST-fit:</em> &quot;Where would the team record a newly identified uncertain future event and its response?&quot; → risk register.</li>
+<li><em>NEXT action:</em> a risk triggers — the next step is to execute the response recorded in the register.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>Trap answers</strong></p>
+<ul>
+<li>Recording a risk in the WBS, schedule, or charter instead of the risk register.</li>
+<li>Inventing a new response when the register already has a planned one.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>Quick check 4.1.</strong> A team identifies a possible future problem and its response. Which document records it? <span id="qc-4-1"></span></p>
+</blockquote>
+<p><strong>Source:</strong> PMBOK® Guide, 6th ed. (2017), 11.2.3.1 (PDF p. 453)</p>
+<h2 id="sec-4-2">4.2 — Using a Stakeholder Register</h2>
+<p><strong>ECO:</strong> 1.2.6 — Use a stakeholder register in a given situation.</p>
+<p><strong>Why it matters.</strong> The mirror of §4.1: whenever a scenario is about <em>people</em> — who they are, how much they matter, how to engage them — the stakeholder register is the tool.</p>
+<p><strong>Concept.</strong> A <strong>stakeholder register</strong> lists the project&#39;s stakeholders with information about each: role, interest, influence, expectations, and communication needs. You use it when you need to know <em>who</em> is affected or involved, <em>how much they care or can influence</em> the project, and <em>how to engage them</em>. A common companion idea is the power/interest grid, which sets the engagement level: high-power, high-interest stakeholders are <strong>managed closely</strong>; high-power, low-interest are <strong>kept satisfied</strong>; low-power, high-interest are <strong>kept informed</strong>; and low-power, low-interest are simply <strong>monitored</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>You need to…</th>
+<th>Stakeholder register action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Identify who is affected</td>
+<td>Look up / add stakeholders</td>
+</tr>
+<tr>
+<td>Gauge influence and interest</td>
+<td>Read their analysis</td>
+</tr>
+<tr>
+<td>Plan engagement/communication</td>
+<td>Use their communication needs</td>
+</tr>
+</tbody></table>
+<p><strong>Worked example (CityPark).</strong> To plan communications, the team consults the <strong>stakeholder register</strong>: the city council (high influence, high interest → engage closely), downtown merchants (low power, high interest → keep informed), and occasional drivers (low power, low interest → monitor).</p>
+<blockquote>
+<p><strong>Practice prompts</strong></p>
+<ul>
+<li><em>BEST-fit:</em> a scenario about identifying, analyzing, or planning communication with people → stakeholder register.</li>
+<li><em>Scenario judgment:</em> how to treat a high-power, high-interest stakeholder → manage closely (engage closely).</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>Trap answers</strong></p>
+<ul>
+<li>Reaching for the <em>risk</em> register when the scenario is about people (use the <em>stakeholder</em> register).</li>
+<li>Ignoring a high-influence stakeholder or over-communicating with a low/low one.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>Quick check 4.2.</strong> Which register would you use to plan how to engage a high-influence, high-interest stakeholder? <span id="qc-4-2"></span></p>
+</blockquote>
+<p><strong>Source:</strong> PMBOK® Guide, 6th ed. (2017), 13.1.2.3 (PDF p. 548); Aubry et al., Instructor’s Manual (2018), Figure 1 IM, PDF p. 6 (web)</p>
+<h2 id="sec-4-3">4.3 — Project Closure and Transitions</h2>
+<p><strong>ECO:</strong> 1.2.7 — Explain project closure and transitions.</p>
+<p><strong>Why it matters.</strong> Completing the last task does not by itself close the project; transition the results so that operations can sustain the intended benefit.</p>
+<p><strong>Concept.</strong> <strong>Closure</strong> is the formal end of a project (or phase): confirming deliverables are <strong>accepted</strong>, obtaining <strong>sign-off</strong>, releasing <strong>resources</strong>, capturing <strong>lessons learned</strong>, and <strong>archiving</strong> records. A crucial part of closure is the <strong>transition</strong> — handing the project&#39;s result over to operations or the customer so the benefit can be sustained. For a successfully completed project, the final task alone does not establish closure: confirm acceptance, transition the result, and complete formal closure. A canceled project also needs formal closure, including the reason for termination and disposition of unfinished work; it need not have delivered the original outcome.</p>
+<p><strong>Worked example (CityPark).</strong> At the end of the app project, the team confirms the city accepts the app, obtains formal sign-off, captures lessons learned (the vendor-delay experience), releases the developers, archives the records, and <strong>transitions</strong> the running of the app to the city&#39;s IT operations team. Only then is the project closed.</p>
+<blockquote>
+<p><strong>Practice prompts</strong></p>
+<ul>
+<li><em>EXCEPT/NOT:</em> &quot;Proper closure includes all of the following EXCEPT…&quot; with one non-closure item (e.g., deleting all records).</li>
+<li><em>BEST-answer:</em> what proper closure entails, emphasizing acceptance and transition.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>Trap answers</strong></p>
+<ul>
+<li>&quot;Delete all project records&quot; — closure <em>archives</em>, it does not delete.</li>
+<li>&quot;Done when the last task finishes&quot; — done requires acceptance and transition.</li>
+<li>Skipping the transition to operations.</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>Quick check 4.3.</strong> True/false: a project is complete as soon as its final task is finished, regardless of acceptance. <span id="qc-4-3"></span></p>
+</blockquote>
+<p><strong>Source:</strong> PMBOK® Guide, 6th ed. (2017), 4.7 (PDF p. 159)</p>
+<h2 id="ch4-chapter-4-summary">Chapter 4 — Summary</h2>
+<p>This chapter matched situations to the two registers and defined proper closure. The <strong>risk register</strong> is the tool for uncertain future events — recording them, responding when they trigger, and reviewing threats. The <strong>stakeholder register</strong> is the tool for people — identifying who is affected, gauging influence and interest, and planning engagement. <strong>Closure</strong> is the formal end of a project: acceptance, sign-off, lessons learned, resource release, archiving, and — critically — <strong>transition</strong> of the result to operations or the customer so the benefit is sustained. A project is done when the outcome is accepted and transitioned, not when the last task ends.</p>
+<h2 id="ch4-chapter-4-exam-essentials">Chapter 4 — Exam Essentials</h2>
+<ul>
+<li><strong>Risk register</strong> for uncertain future events and their responses.</li>
+<li><strong>Stakeholder register</strong> for people, their influence/interest, and engagement.</li>
+<li><strong>Match the register to the need</strong> — events vs. people.</li>
+<li><strong>Closure</strong> = acceptance, sign-off, lessons learned, resource release, archiving, and transition to operations.</li>
+<li><strong>Transition</strong> sustains the benefit; without it, the project isn&#39;t truly done.</li>
+</ul>
+<h2 id="ch4-chapter-4-practice-questions">Chapter 4 — Practice Questions</h2>
+<h3 id="c4-q01">C4-Q01</h3>
+<p>Where would a team MOST appropriately record a newly identified uncertain future event and its planned response?</p>
+<p><strong>ECO:</strong> 1.2.5</p>
+<p><strong>Format:</strong> standard · <strong>Level:</strong> recall</p>
+<ul>
+<li>A. Issue log.</li>
+<li>B. Assumption log.</li>
+<li>C. Stakeholder register.</li>
+<li>D. Risk register.</li>
+</ul>
+<h3 id="c4-q02">C4-Q02</h3>
+<p>Which document records the identities, influence, and interest of people affected by a project, providing input to engagement planning?</p>
+<p><strong>ECO:</strong> 1.2.6</p>
+<p><strong>Format:</strong> standard · <strong>Level:</strong> application</p>
+<ul>
+<li>A. Communications management plan.</li>
+<li>B. Stakeholder register.</li>
+<li>C. Risk register.</li>
+<li>D. Stakeholder engagement assessment matrix.</li>
+</ul>
+<h3 id="c4-q03">C4-Q03</h3>
+<p>For a successfully completed project, which action would undermine proper closure?</p>
+<p><strong>ECO:</strong> 1.2.7</p>
+<p><strong>Format:</strong> standard · <strong>Level:</strong> recall</p>
+<ul>
+<li>A. Archive project records and consolidate lessons for future work.</li>
+<li>B. Confirm acceptance using the agreed completion criteria and approval responsibilities.</li>
+<li>C. Transfer operating knowledge to the receiving organization under the transition plan.</li>
+<li>D. Release the team before obtaining the required acceptance and transition records.</li>
+</ul>
+<h3 id="c4-q04">C4-Q04</h3>
+<p>On a power/interest grid, which strategy generally fits a stakeholder with high power and high interest?</p>
+<p><strong>ECO:</strong> 1.2.6</p>
+<p><strong>Format:</strong> standard · <strong>Level:</strong> recall</p>
+<ul>
+<li>A. Manage closely.</li>
+<li>B. Keep satisfied.</li>
+<li>C. Keep informed.</li>
+<li>D. Monitor.</li>
+</ul>
+<h3 id="c4-q05">C4-Q05</h3>
+<p>A registered risk has triggered. The recorded response remains applicable and the team is authorized to implement it. What is the BEST next action?</p>
+<p><strong>ECO:</strong> 1.2.5</p>
+<p><strong>Format:</strong> standard · <strong>Level:</strong> application</p>
+<ul>
+<li>A. Wait for the routine status meeting before activating the recorded response.</li>
+<li>B. Implement the applicable, authorized response and update the risk and issue records.</li>
+<li>C. Remove the risk entry and rely on the next status report to track the impact.</li>
+<li>D. Replace the response with a newly proposed action before reviewing the existing plan.</li>
+</ul>
+<h3 id="c4-q06">C4-Q06</h3>
+<p>Which statement about closing a successfully completed project is TRUE?</p>
+<p><strong>ECO:</strong> 1.2.7</p>
+<p><strong>Format:</strong> standard · <strong>Level:</strong> recall</p>
+<ul>
+<li>A. Releasing remaining staff establishes acceptance of the delivered result.</li>
+<li>B. Finishing the final scheduled task establishes that closure has been completed.</li>
+<li>C. Reaching go-live establishes that project records and lessons are complete.</li>
+<li>D. Acceptance, transition, and required administrative closure must be addressed.</li>
+</ul>
+<details class="answer" id="ch4-qc-answers"><summary>Show quick-check answers</summary><div class="answer-body"><h2>Chapter 4 — Quick-Check Answers</h2>
+<p>§4.1: the risk register. §4.2: the stakeholder register. §4.3: false — successful completion requires the applicable acceptance, transition, and administrative closure activities.</p>
+</div></details>
+</article><nav class="page-turn" aria-label="Chapter navigation"><a href="chapter-3.html"><small>Previous</small>Chapter 3 — The Project Management Plan and Its Components</a><a href="chapter-5.html"><small>Next</small>Chapter 5 — Project Roles and Leadership</a></nav><footer>© Kadir Çamoğlu · <a href="copyright.html">CC BY-NC 4.0 & notices</a> · Independent, unofficial study aid.<br>Check the <a href="official-resources.html">current official PMI information</a> before your exam.</footer></main></div></body></html>
